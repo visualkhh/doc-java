@@ -1,0 +1,14 @@
+jvisualvm.exe ->모니터링
+jmc.exe -> 모니터링
+jhat.exe ->보고서 만들어주는거  http://cafe.daum.net/jxsper/6Zyy/31?q=jhat&re=1
+jstat.exe -> http://cafe.daum.net/jxsper/6Zyy/31?q=jhat&re=1
+jmap -dump:format=b,file=test.hprof 7757     힙메모리
+
+AB -> AB(Apache HTTP server benchmarking tool)를 활용해 벤치마킹 테스트 해보기  http://blog.hkwon.me/ab-apache-http-server-benchmarking-tool/
+funkload tool -> http://blog.hkwon.me/ab-apache-http-server-benchmarking-tool/
+MemoryAnalyzer.exe - 바로 가기  힙메모리 열기
+ngrinder  ->네이버꺼
+
+
+쉘로 처리
+while true; do curl -X POST http://localhost; echo -e $(date);done
